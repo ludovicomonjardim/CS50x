@@ -12,10 +12,17 @@ body {
     font-weight: bold;
     font-size: 32px;
 }
+
 #progressbar p {
     color: #FFF;
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#progressbar .circle-box {
+    width: 10vw;
+    height: 10vw;
+    padding-bottom: 40vh;
 }
