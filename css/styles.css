@@ -18,6 +18,7 @@ footer {
     margin-top: auto;
 }
 
+
 /* NAVIGATION BAR */
 /********************************************/
 header,
@@ -29,6 +30,11 @@ header,
     padding-top: 0;
     padding-bottom: 0;
 }
+
+#nav-container {
+    margin-bottom: 10vh;
+}
+
 
 /* AUTHOR */
 /********************************************/

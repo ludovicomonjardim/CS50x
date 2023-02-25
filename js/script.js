@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Activate Carousel with a specified interval
-    $("#mainSlider").carousel({ interval: 1000 });
+    $("#mainSlider").carousel({ interval: 1500 });
 
     for (let i = 0; i < 4; i++) {
         $("#ind_" + i.toString()).click(function () {
