@@ -5,6 +5,15 @@ body {
     background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg");
 }
 
+
+.main-title {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+.main-title::after {
+    top: 90%;
+}
 /* MENTOR - Cards */
 /********************************************/
 .card-body {

@@ -5,6 +5,13 @@ body {
     background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg");
 }
 
+.main-title {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+.main-title::after {
+    top: 90%;
+}
 
 /* MORE JS */
 /********************************************/
@@ -22,8 +29,9 @@ body {
 }
 
 #circleA, #circleB, #circleC, #circleD {
-    max-width: 250px;
-    max-height: 250px;
+    margin-top: 20px;
+    max-width: 225px;
+    max-height: 225px;
     width: 40vw;
     height: 40vw;
     margin-right: 5vw;
