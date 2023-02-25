@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SET 8</title>
+
+        <!-- BOOTSTRAP STYLES - FROM CS50 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+            crossorigin="anonymous">
+        
+        <!-- MY OWN CSS FILES -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/media_q.css">
+     
+        <!-- BOOTSTRAP & JQUERY Scripts - FROM CS50 -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+        <!-- FROM: Font Awesome -->
+        <script src="https://kit.fontawesome.com/5f8368ed4e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+
+            <!-- NAVIGATION BAR -->
+            <div class="container" id="nav-container">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo"
+                            src="https://media.licdn.com/dms/image/D4D35AQH8FGefPiVDxA/profile-framedphoto-shrink_400_400/0/1670857174017?e=1677254400&v=beta&t=S37DBVNomnwWwZMUtHeYLpm12Afbr7v40isT-aUoP-A"
+                            class="rounded-circle" alt="Ludovico Monjardim" width="50" height="50"> Ludovico Monjardim
+                    </a>
+        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                        aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="index.html">Home</a>
+                            <a class="nav-item nav-link" href="more_js.html">More JS</a>
+                            <a class="nav-item nav-link" href="mentors.html">Mentors</a>
+                            <a class="nav-item nav-link" href="this.html">About This</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- CONTACT-->
+            <div class="container-fluid">
+                <div id="contact-area">
+                    <div class="container">
+                        <div class="row g-1">
+
+                            <div class="col-md-12">
+                                <h3 class="main-title">Get in touch</h3>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 contact-box">
+                                <i class="fas fa-envelope fa-xl"></i>
+                                <h3 class="contact-text">Send e-mail</h3>
+                            
+                                <form action="mailto:ludovico.monjardim@gmail.com" method="post" enctype="text/plain">
+                                    <input type="text" class="form-control" placeholder="To: ludovico.monjardim@gmail.com" name="toemail">
+                                    <input type="text" class="form-control" placeholder="Your e-mail" name="email">
+                                    <input type="text" class="form-control" placeholder="Subject" name="subject">
+                                    <textarea class="form-control" rows="5" placeholder="Your mensage..." name="message"></textarea>
+                                    <input type="submit" class="main-btn">
+                                </form>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 contact-box">
+                                <i class="fas fa-map-marker-alt fa-xl"></i>
+                                <h3 class="contact-text">Let's have a coffee</h3>
+                                <a class="contact-link nav-link" href="https://goo.gl/maps/PKgFhaJzYxDr34Fr7">Rua Amélia Tartuce Nasser, 600/301 <br>Vitória - ES - Brazil <br>29060-110</a>
+
+                                <i class="fas fa-brands fa-whatsapp fa-xl"></i>
+                                <h3 class="contact-text">Let's chat</h3>
+                                <a class="contact-link nav-link" href="https://wa.me/+5527988049003/?text=urlencodedtext">+55(27)98804-9003</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+            <!-- AUTHOR -->
+            <div id="author-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Created by <a href="https://www.linkedin.com/in/ludovicomonjardim/" target="_blank">Ludovico Monjardim</a> for CS50 -
+                                SET 8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

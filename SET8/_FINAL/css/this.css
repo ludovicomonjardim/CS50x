@@ -1,0 +1,54 @@
+/* HTML TAGS */
+/**************************************/
+body {
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+}
+
+/* TITLE */
+/********************************************/
+.main-title {
+    color: #444;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+}
+.main-title::after {
+    border-top: 2px solid #333;
+}
+
+
+/* ABOUT THIS */
+/********************************************/
+#about-area {
+    margin-top: 6vh;
+    background-color: #ffffff;
+}
+.img-fluid {
+    display: block;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    height: 65vh;
+}
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 23px;
+}
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+p {
+    line-height: 3.6vh;
+}
+#about-list li {
+    line-height: 3.6vh;
+}
+#about-list i {
+    color: #65DAF9;
+    margin-right: 5px;
+}
