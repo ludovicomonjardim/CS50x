@@ -6,11 +6,11 @@ body {
 }
 
 .main-title {
-    margin-top: 14vh;
+    margin-top: 20vh;
     margin-bottom: 4vh;
 }
 .main-title::after {
-    top: 90%;
+    top: 95%;
 }
 
 /* MORE JS */

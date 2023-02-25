@@ -70,7 +70,9 @@ header,
     color: #f6f1f1;
     margin-top: 4vh;
     margin-bottom: 6vh;
-    font-size: xx-large;
+
+    font-size: 2vw;
+
     text-align: center;
 }
 
@@ -79,7 +81,7 @@ header,
     border-top: 2px solid #8a8989;
     width: 50%;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 25%;
 }
 

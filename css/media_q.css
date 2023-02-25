@@ -7,7 +7,6 @@
 @media(max-width: 950px) {  
     .main-title {
         font-size: 6vw;
-        margin-top: 3vh;
     }
 
     .contact-text {
@@ -55,6 +54,7 @@
 @media(max-width: 768px) {
     .main-title {
         font-size: 7vw;
+        margin-top: 3vh;
     }
 
     .contact-text {
@@ -102,7 +102,7 @@
 /********************************************/
 @media(max-width: 450px) {
     .main-title {
-        font-size: 9vw;
+        font-size: 7vw;
     }
     .contact-text {
         font-size: 6vw;
@@ -114,7 +114,7 @@
     /****************************************/
     @media(max-height: 900px) {
         .main-title {
-            margin-top: 5vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 85%;
@@ -122,7 +122,7 @@
     }
     @media(max-height: 700px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 86%;
@@ -130,7 +130,7 @@
     }
     @media(max-height: 600px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 85%;
