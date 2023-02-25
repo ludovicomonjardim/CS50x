@@ -1,0 +1,23 @@
+/* HTML TAGS */
+/**************************************/
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg");
+}
+#nav-container {
+    margin-bottom: 10vh;
+}
+
+
+/* MORE JS */
+/********************************************/
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+#progressbar p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
