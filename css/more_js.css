@@ -10,19 +10,19 @@ body {
 /********************************************/
 .progressbar-text {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 5vw;
 }
 
 #progressbar p {
     color: #FFF;
-    text-align: center;
-    font-size: 26px;
+/*     text-align: center; */
+    font-size: 4vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 #circleA, #circleB, #circleC, #circleD {
-    width: 150px;
-    height: 150px;
-/*     margin: 50px;  */
+    width: 15vw;
+    height: 15vw;
+    margin-right: 5vw;
 }
