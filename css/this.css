@@ -88,7 +88,7 @@ p {
     @media(max-height: 860px) {
         /* ok */
         .main-title {
-            margin-top: 8vh;
+            margin-top: 10vh;
         }
         .main-title::after {
             top: 87%;
@@ -100,7 +100,7 @@ p {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 10vh;
+            margin-top: 12vh;
         }
         .main-title::after {
             top: 88%;
@@ -133,7 +133,7 @@ p {
     @media(max-height: 2000px) {
         /* ok */
         .main-title {
-            margin-top: 3vh;
+            margin-top: 5vh;
             margin-bottom: 1.5vh;
         }
         .main-title::after {
@@ -202,7 +202,7 @@ p {
     @media(max-height: 950px) {
         /* ok */
         .main-title {
-            margin-top: 4vh;
+            margin-top: 6vh;
             margin-bottom: 1vh;
         }
         .main-title::after {
@@ -212,7 +212,7 @@ p {
     @media(max-height: 860px) {
         /* ok */
         .main-title {
-            margin-top: 4vh;
+            margin-top: 6vh;
             margin-bottom: 1vh;
         }
         .main-title::after {
@@ -222,7 +222,7 @@ p {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 7vh;
+            margin-top: 9vh;
             margin-bottom: 1vh;
         }
         .main-title::after {
@@ -281,7 +281,7 @@ p {
             margin-bottom: 1.5vh;
         }
         .main-title::after {
-            top: 94%;
+            top: 96%;
         }
     }
 }
@@ -334,7 +334,7 @@ p {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 13vh;
+            margin-top: 15vh;
             margin-bottom: 1vh;
         }
         .main-title::after {
