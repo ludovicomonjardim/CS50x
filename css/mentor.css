@@ -2,10 +2,12 @@
 /**************************************/
 body {
     background-color: rgb(0, 0, 0);
-    background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg");
+    background-image: url("https://img.freepik.com/free-vector/main-background-with-focus-spot-light_1017-27230.jpg");
 }
 
 
+/* TITLE - Changes original */
+/********************************************/
 .main-title {
     margin-top: 20vh;
     margin-bottom: 4vh;
@@ -14,10 +16,267 @@ body {
 .main-title::after {
     top: 90%;
 }
+
+
 /* MENTOR - Cards */
 /********************************************/
 .card-body {
     text-align: center;
     color: rgb(0, 0, 0);
     background-color: rgb(187, 187, 187);
+}
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/********************************************/
+
+/********************************************/
+/* WIDTH - 1280 or less */
+/********************************************/
+@media(max-width: 1280px) {
+    .main-title {
+        font-size: 4vw;
+/*         background-color: green; */
+    }
+
+    .progressbar-text {
+        font-size: 5vw;
+    }
+
+    #progressbar p {
+        font-size: 2vw;
+    }
+
+    #circleA,
+    #circleB,
+    #circleC,
+    #circleD {
+        margin-top: 20px;
+        margin-left: 20px;
+        max-width: 200px;
+        max-height: 200px;
+        width: 40vw;
+        height: 40vw;
+        margin-right: 5vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 13vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 14vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 15vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 16vh;
+/*             color: purple; */
+        }
+
+        .main-title::after {
+            top: 94%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 950 or less */
+/********************************************/
+@media(max-width: 950px) {
+    .main-title {
+        font-size: 4vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 10vh;
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 14vh;
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 14vh;
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 14vh;
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 768 or less */
+/********************************************/
+@media(max-width: 768px) {
+    .main-title {
+        font-size: 4vw;
+    }
+
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 15vh;
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 16vh;
+        }
+
+        .main-title::after {
+            top: 86%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 16vh;
+        }
+
+        .main-title::after {
+            top: 85%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 450 or less */
+/********************************************/
+@media(max-width: 450px) {
+    .main-title {
+        font-size: 7vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 12vh;
+        }
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 15vh;
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 10vh;
+        }
+
+        .main-title::after {
+            top: 85%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 350 or less */
+/********************************************/
+@media(max-width: 350px) {
+    .main-title {
+        font-size: 6vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 15vh;
+        }
+
+        .main-title::after {
+            top: 85%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 20vh;
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 14vh;
+        }
+
+        .main-title::after {
+            top: 85%;
+        }
+    }
 }

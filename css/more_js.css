@@ -24,7 +24,7 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 2vw;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
@@ -35,4 +35,377 @@ body {
     width: 40vw;
     height: 40vw;
     margin-right: 5vw;
+}
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/********************************************/
+
+/********************************************/
+/* WIDTH - 1280 or less */
+/********************************************/
+@media(max-width: 1280px) {
+    .main-title {
+        font-size: 4vw;
+/*         background-color:green; */
+    }
+
+    .progressbar-text {
+        font-size: 5vw;
+    }
+
+    #progressbar p {
+        font-size: 2vw;
+    }
+
+    #circleA,
+    #circleB,
+    #circleC,
+    #circleD {
+        margin-top: 20px;
+        margin-left: 20px;
+        max-width: 200px;
+        max-height: 200px;
+        width: 40vw;
+        height: 40vw;
+        margin-right: 5vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 13vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 14vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 15vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 16vh;
+/*             color: purple; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 950 or less */
+/********************************************/
+@media(max-width: 950px) {
+    .main-title {
+        font-size: 5vw;
+/*         background-color: rgb(0, 0, 0); */
+    }
+
+    .progressbar-text {
+        font-size: 9vw;
+    }
+    #progressbar p {
+        font-size: 4vw;
+    }
+
+    #circleA,
+    #circleB,
+    #circleC,
+    #circleD {
+        margin-top: 20px;
+        margin-left: 20px;
+        max-width: 300px;
+        max-height: 300px;
+        width: 40vw;
+        height: 40vw;
+        margin-right: 5vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 8vh;
+/*             color: blue; */
+        }
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 9vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 10vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 10vh;
+/*             color: purple */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 750 or less */
+/********************************************/
+@media(max-width: 750px) {
+    .main-title {
+        font-size: 6vw;
+/*         background-color: yellow; */
+    }
+
+    .progressbar-text {
+        font-size: 10vw;
+    }
+
+    #progressbar p {
+        font-size: 4vw;
+    }
+
+    #circleA,
+    #circleB,
+    #circleC,
+    #circleD {
+        margin-top: 10px;
+        margin-left: 5px;
+        max-width: 180px;
+        max-height: 180px;
+        width: 40vw;
+        height: 40vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 950px) {
+        .main-title {
+            margin-top: 11vh;
+/*             color: rgb(0, 0, 255); */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 14vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 16vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 360 or less */
+/********************************************/
+@media(max-width: 360px) {
+    .main-title {
+            font-size: 6vw;
+/*             background-color: rgb(255, 255, 255); */
+        }
+    
+        .progressbar-text {
+            font-size: 10vw;
+        }
+    
+        #progressbar p {
+            font-size: 5vw;
+        }
+    
+        #circleA,
+        #circleB,
+        #circleC,
+        #circleD {
+            margin-top: 10px;
+            margin-left: 2px;
+            max-width: 300px;
+            max-height: 300px;
+            width: 40vw;
+            height: 40vw;
+        }
+    
+        /* HEIGHT */
+        /****************************************/
+        @media(max-height: 2000px) {
+            .main-title {
+                margin-top: 10vh;
+/*                 color: blue; */
+            }
+    
+            .main-title::after {
+                top: 87%;
+            }
+        }
+    
+        @media(max-height: 900px) {
+            .main-title {
+                margin-top: 13vh;
+/*                 color: rgb(255, 0, 0); */
+            }
+    
+            .main-title::after {
+                top: 87%;
+            }
+        }
+    
+        @media(max-height: 700px) {
+            .main-title {
+                margin-top: 14vh;
+/*                 color: cyan; */
+            }
+    
+            .main-title::after {
+                top: 90%;
+            }
+        }
+    
+        @media(max-height: 600px) {
+            .main-title {
+                margin-top: 14vh;
+/*                 color:purple; */
+            }
+    
+            .main-title::after {
+                top: 87%;
+            }
+        }
+}
+
+/********************************************/
+/* WIDTH - 350 or less */
+/********************************************/
+@media(max-width: 350px) {
+    .main-title {
+        font-size: 6vw;
+/*         background-color:magenta; */
+    }
+
+    .progressbar-text {
+        font-size: 10vw;
+    }
+
+    #progressbar p {
+        font-size: 5vw;
+    }
+
+    #circleA,
+    #circleB,
+    #circleC,
+    #circleD {
+        margin-top: 5px;
+        margin-left: 0px;
+        max-width: 300px;
+        max-height: 300px;
+        width: 40vw;
+        height: 40vw;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 18vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 20vh;
+/*             color: rgb(255, 0, 0); */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 21vh;
+/*             color: rgb(0, 255, 217); */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 12vh;
+/*             color: rgb(0, 255, 72); */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
 }

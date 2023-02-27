@@ -31,9 +31,16 @@ header,
     padding-bottom: 0;
 }
 
-#nav-container {
-/*     margin-bottom: 10vh; */
+#nav-container a {
+    color: rgb(180, 180, 180);
 }
+#nav-container a:hover {
+    color: rgb(240, 240, 240);
+}
+
+/* #nav-container {
+    margin-bottom: 10vh;
+} */
 
 
 /* AUTHOR */

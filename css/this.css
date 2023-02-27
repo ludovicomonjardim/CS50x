@@ -5,12 +5,13 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+
 /* TITLE - Changes original */
 /********************************************/
 .main-title {
-    color: #444;
     margin-top: 7vh;
     margin-bottom: 4vh;
+    color: #444;
 }
 .main-title::after {
     border-top: 2px solid #333;
@@ -51,4 +52,296 @@ p {
 #about-list i {
     color: #65DAF9;
     margin-right: 5px;
+}
+
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/********************************************/
+
+/********************************************/
+/* WIDTH - 1280 or less */
+/********************************************/
+@media(max-width: 1280px) {
+    .main-title {
+        font-size: 4vw;
+/*         background-color: green; */
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 5vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 7vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 8vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+
+        /*  */
+        .main-title {
+            margin-top: 10vh;
+/*             color: purple; */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 950 or less */
+/********************************************/
+@media(max-width: 950px) {
+    .main-title {
+        font-size: 5vw;
+/*         background-color: rgb(0, 0, 0); */
+    }
+    .img-fluid {
+        height: 50vh;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 3.5vh;
+/*             color: blue; */
+        }
+        .main-title::after {
+            top: 83%;
+        }
+        p {
+            line-height: 2vh;
+        }
+        #about-list li {
+            line-height: 2vh;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 7vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 7vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 8vh;
+/*             color: purple */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 750 or less */
+/********************************************/
+@media(max-width: 750px) {
+    .main-title {
+        font-size: 5vw;
+/*         background-color: yellow; */
+    }
+    .img-fluid {
+        height: 50vh;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 950px) {
+        .main-title {
+            margin-top: 8vh;
+/*             color: rgb(0, 0, 255); */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 9vh;
+/*             color: red; */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 10vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 360 or less */
+/********************************************/
+@media(max-width: 360px) {
+    .main-title {
+        font-size: 6vw;
+/*         background-color: rgb(220, 92, 92); */
+    }
+    .img-fluid {
+        height: 50vh;
+    }
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 6vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 8vh;
+/*             color: rgb(255, 0, 0); */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 9vh;
+/*             color: cyan; */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 10vh;
+/*             color: purple; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+}
+
+/********************************************/
+/* WIDTH - 350 or less */
+/********************************************/
+@media(max-width: 350px) {
+    .main-title {
+        font-size: 8vw;
+/*         background-color: magenta; */
+    }
+    .img-fluid {
+        height: 50vh;
+    }
+
+    /* HEIGHT */
+    /****************************************/
+    @media(max-height: 2000px) {
+        .main-title {
+            margin-top: 11vh;
+/*             color: blue; */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 900px) {
+        .main-title {
+            margin-top: 14vh;
+/*             color: rgb(255, 0, 0); */
+        }
+
+        .main-title::after {
+            top: 87%;
+        }
+    }
+
+    @media(max-height: 700px) {
+        .main-title {
+            margin-top: 15vh;
+/*             color: rgb(0, 255, 217); */
+        }
+
+        .main-title::after {
+            top: 90%;
+        }
+    }
+
+    @media(max-height: 600px) {
+        .main-title {
+            margin-top: 16vh;
+/*             color: rgb(0, 255, 72); */
+        }
+
+        .main-title::after {
+            top: 88%;
+        }
+    }
 }
