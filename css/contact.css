@@ -123,17 +123,18 @@ body {
         }
     }
     @media(max-height: 860px) {
+        /* ok */
         .main-title {
             margin-top: 11vh;
         }
         .main-title::after {
-            top: 87%;
+            top: 85%;
         }
     }
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 12vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 87%;
@@ -267,7 +268,7 @@ body {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 6vh;
+            margin-top: 7vh;
         }
         .main-title::after {
             top: 87%;
@@ -275,7 +276,7 @@ body {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 8vh;
         }
         .main-title::after {
             top: 87%;
@@ -283,7 +284,7 @@ body {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 9vh;
         }
         .main-title::after {
             top: 88%;
@@ -292,7 +293,7 @@ body {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 8vh;
+            margin-top: 9vh;
             margin-bottom: 2vh;
         }
         .main-title::after {
@@ -326,7 +327,7 @@ body {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 13vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 91%;
@@ -334,7 +335,7 @@ body {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 14vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 92%;

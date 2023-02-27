@@ -71,7 +71,7 @@ body {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 13vh;
+            margin-top: 16vh;
         }
         .main-title::after {
             top: 90%;
@@ -79,27 +79,28 @@ body {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 14vh;
+            margin-top: 18vh;
         }
         .main-title::after {
             top: 90%;
         }
     }
     @media(max-height: 860px) {
-        .main-title {
-            margin-top: 15vh;
-        }
-        .main-title::after {
-            top: 94%;
-        }
-    }
-    @media(max-height: 750px) {
         /* ok */
         .main-title {
             margin-top: 18vh;
         }
         .main-title::after {
-            top: 95%;
+            top: 91%;
+        }
+    }
+    @media(max-height: 750px) {
+        /* ok */
+        .main-title {
+            margin-top: 20vh;
+        }
+        .main-title::after {
+            top: 92%;
         }
     }
 }
@@ -134,15 +135,15 @@ body {
     @media(max-height: 2000px) {
         /* ok */
         .main-title {
-            margin-top: 11vh;
+            margin-top: 13vh;
         }
         .main-title::after {
-            top: 89%;
+            top: 85%;
         }
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 9vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 87%;
@@ -150,7 +151,7 @@ body {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 10vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 87%;
@@ -158,7 +159,7 @@ body {
     }
     @media(max-height: 750px) {
         .main-title {
-            margin-top: 10vh;
+            margin-top: 16vh;
         }
         .main-title::after {
             top: 87%;
@@ -195,7 +196,7 @@ body {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 8vh;
+            margin-top: 10vh;
             margin-bottom: 4vh;
         }
         .main-title::after {
@@ -209,7 +210,7 @@ body {
             margin-bottom: 4vh;
         }
         .main-title::after {
-            top: 86%;
+            top: 85%;
         }
     }
     @media(max-height: 860px) {
@@ -229,7 +230,7 @@ body {
             margin-bottom: 4vh;
         }
         .main-title::after {
-            top: 90%;
+            top: 89%;
         }
     }
 }
@@ -262,7 +263,7 @@ body {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 10vh;
+            margin-top: 13vh;
         }
         .main-title::after {
             top: 87%;
@@ -270,7 +271,7 @@ body {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 13vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 87%;
@@ -278,7 +279,7 @@ body {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 14vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 90%;
@@ -287,7 +288,7 @@ body {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 14vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 88%;

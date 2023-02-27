@@ -71,7 +71,7 @@ p {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 5vh;
+            margin-top: 8vh;
         }
         .main-title::after {
             top: 86%;
@@ -79,7 +79,7 @@ p {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 10vh;
         }
         .main-title::after {
             top: 87%;
@@ -88,10 +88,10 @@ p {
     @media(max-height: 860px) {
         /* ok */
         .main-title {
-            margin-top: 10vh;
+            margin-top: 11vh;
         }
         .main-title::after {
-            top: 87%;
+            top: 86%;
         }
         .img-fluid {
             height: 61vh;
@@ -100,7 +100,7 @@ p {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 12vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 88%;
@@ -133,11 +133,11 @@ p {
     @media(max-height: 2000px) {
         /* ok */
         .main-title {
-            margin-top: 5vh;
+            margin-top: 7vh;
             margin-bottom: 1.5vh;
         }
         .main-title::after {
-            top: 94%;
+            top: 92%;
         }
         p {
             line-height: 2vh;
@@ -148,7 +148,7 @@ p {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 9vh;
         }
         .main-title::after {
             top: 87%;
@@ -156,7 +156,7 @@ p {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 9vh;
         }
         .main-title::after {
             top: 87%;
@@ -164,7 +164,7 @@ p {
     }
     @media(max-height: 750px) {
         .main-title {
-            margin-top: 8vh;
+            margin-top: 10vh;
         }
         .main-title::after {
             top: 87%;
@@ -192,7 +192,7 @@ p {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 3vh;
+            margin-top: 4vh;
             margin-bottom: 1vh;
         }
         .main-title::after {
@@ -206,7 +206,7 @@ p {
             margin-bottom: 1vh;
         }
         .main-title::after {
-            top: 97%;
+            top: 95%;
         }
     }
     @media(max-height: 860px) {
@@ -216,7 +216,7 @@ p {
             margin-bottom: 1vh;
         }
         .main-title::after {
-            top: 96%;
+            top: 95%;
         }
     }
     @media(max-height: 750px) {
@@ -251,7 +251,7 @@ p {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 6vh;
+            margin-top: 7vh;
         }
         .main-title::after {
             top: 87%;
@@ -259,7 +259,7 @@ p {
     }
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 6vh;
+            margin-top: 8vh;
         }
         .main-title::after {
             top: 87%;
@@ -267,7 +267,7 @@ p {
     }
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 7vh;
+            margin-top: 9vh;
         }
         .main-title::after {
             top: 88%;
@@ -277,11 +277,11 @@ p {
     @media(max-height: 750px) {
         /* ok */
         .main-title {
-            margin-top: 8vh;
+            margin-top: 9vh;
             margin-bottom: 1.5vh;
         }
         .main-title::after {
-            top: 96%;
+            top: 95%;
         }
     }
 }
@@ -306,7 +306,7 @@ p {
     /****************************************/
     @media(max-height: 2000px) {
         .main-title {
-            margin-top: 10vh;
+            margin-top: 13vh;
         }
         .main-title::after {
             top: 87%;
@@ -315,7 +315,7 @@ p {
 
     @media(max-height: 960px) {
         .main-title {
-            margin-top: 11vh;
+            margin-top: 14vh;
         }
         .main-title::after {
             top: 87%;
@@ -324,7 +324,7 @@ p {
 
     @media(max-height: 860px) {
         .main-title {
-            margin-top: 12vh;
+            margin-top: 15vh;
         }
         .main-title::after {
             top: 90%;
