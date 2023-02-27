@@ -46,6 +46,7 @@ body {
 }
 .contact-link {
     color: #ffffff;
+    text-decoration: underline;
 }
 .contact-link:hover {
     color: #04043b;
