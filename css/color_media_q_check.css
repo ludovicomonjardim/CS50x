@@ -1,0 +1,61 @@
+
+/* COLORS FOR CHECKING RESPONSIVENESS */
+
+
+/********************************************/
+/* WIDTH - 1280 or less */
+/********************************************/
+@media(max-width: 1280px) {
+    .main-title {
+        background-color: lime;
+    }
+}
+@media(max-width: 950px) {
+    .main-title {
+        background-color: cyan;
+    }
+}
+@media(max-width: 750px) {
+    .main-title {
+        background-color: yellow;
+    }
+}
+@media(max-width: 360px) {
+    .main-title {
+        background-color: red;
+    }
+}
+@media(max-width: 300px) {
+    .main-title {
+        background-color: magenta;
+    }
+}
+
+
+
+/****************************************/
+/* HEIGHT */
+/****************************************/
+@media(max-height: 2000px) {
+    .main-title {
+        color: blue;
+    }
+}
+
+@media(max-height: 960px) {
+    .main-title {
+        color: white;
+    }
+}
+
+@media(max-height: 860px) {
+    .main-title {
+        color: black;
+    }
+}
+
+@media(max-height: 750px) {
+    .main-title {
+        color: purple;
+    }
+}
