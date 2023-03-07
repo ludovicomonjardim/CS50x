@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let correct = document.querySelector('.correct');
+            correct.addEventListener('click', function() {
+                restart();
+                correct.style.backgroundColor = 'green';
+                document.querySelector('#feedback1').innerHTML = 'Correct!';
+            })
+            
+            let incorrects = document.querySelectorAll('.incorrect');
+
+            for (let i = 0; i < incorrects.length; i++) {
+                    incorrects[i].style.backgroundColor = '#d9edff';
+            }
+
+            for (let i = 0; i < incorrects.length; i++) {
+                incorrects[i].addEventListener('click', function () {
+                    restart();
+                    incorrects[i].style.backgroundColor = 'red';
+                    document.querySelector('#feedback1').innerHTML = 'Incorect!';
+                })
+            }
+            
+            /* FREE RESPONSE */
+            document.querySelector('#check').addEventListener('click', function() {
+                let input = document.querySelector('input');
+                if (input.value.toUpperCase() === 'PELÉ') {
+                    input.style.backgroundColor = 'green';
+                    document.querySelector('#feedback2').innerHTML = 'Corect!';
+                } else if (input.value.toUpperCase() === 'PELE') {
+                    input.style.backgroundColor = 'yellow';
+                    document.querySelector('#feedback2').innerHTML = 'Almost. Remember that he was Brazilian and in Portuguese you use graphic accents. So, the correct name of the ace is Pelé.';
+                } else {
+                    input.style.backgroundColor = 'red';
+                    document.querySelector('#feedback2').innerHTML = 'Incorrect';
+                }
+            });
+        })
+
+
+        function restart() {
+            let correct = document.querySelector('.correct');
+            correct.style.backgroundColor = '#d9edff';
+            let incorrects = document.querySelectorAll('.incorrect');
+            for (let i = 0; i < incorrects.length; i++) {
+                incorrects[i].style.backgroundColor = '#d9edff';
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <h3>What's the capital of Brasil?</h3>
+            <button class="incorrect">São Paulo</button>
+            <button class="correct">Brasília</button>
+            <button class="incorrect">Bueno Aires</button>
+            <button class="incorrect">Rio de Janeiro</button>
+            <p id="feedback1"></p>
+        </div>
+        
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>Who is the only player in history to score in three FIFA World Cup finals?</h3>
+            <input type="text"></input>
+            <button id="check">Check Answer</button>
+
+            <p id="feedback2"></p>
+        </div>
+    </div>
+</body>
+
+</html>
