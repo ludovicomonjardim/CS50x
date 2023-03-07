@@ -1,0 +1,27 @@
+{% extends "quote.html" %}
+
+{% block scriptsrc %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+{% endblock %}
+
+{% block jsscript %}
+<script>
+    function updateTime() {
+        $.ajax({
+            url: '/get_time',
+            success: function (response) {
+                $('#time').text(response[0]);
+                $('#price').text(response[1]);
+            }
+        });
+    }
+    $(document).ready(function () {
+        setInterval(updateTime, 1000);
+    });
+</script>
+{% endblock %}
+
+{% block refresh %}
+<h1 id="price">{{quote["price"] | usd}}</h1>
+<p><span id="time">{{time}}</span></p>
+{% endblock %}

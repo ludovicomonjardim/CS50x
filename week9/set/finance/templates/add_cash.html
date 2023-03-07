@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Credit
+{% endblock %}
+
+{% block main %}
+<form action="/add_cash" method="post">
+    <h4>Add Cash</h4>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" id="cash" autofocus name="cash" placeholder="Cash" min="0.1" type="number"
+            step="0.01">
+    </div>
+    <button class="btn btn-success" type="submit">Credit</button>
+    <a href="\" class="btn btn-primary" role="button">Home</a>
+<!--     <button class="btn" type="submit">Home</button> -->
+</form>
+{% endblock %}

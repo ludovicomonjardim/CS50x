@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-11">
+            <h4 class="text-start">Trade History</h4>
+        </div>
+        <div class="col-sm-1">
+            <a href="\" class="btn btn-primary" class="text-end" role="button">Home</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">Total</th>
+                <th class="text-end">Transacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                {% if row["shares"] > 0 %}
+                    <tr class="tbblue">
+                {% else %}
+                    <tr class="tbred">
+                {% endif %}
+                    <td class="text-start">{{ row["symbol"] }}</td>
+                    <td class="text-end">{{ row["shares"] }}</td>
+                    <td class="text-end">{{ row["price"] | usd}}</td>
+                    <td class="text-end">{{ (row["price"]*row["shares"]|abs) | usd}}</td>
+                    <td class="text-end">{{ row["transacted"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+
+{% block main %}
+<form action="/quote" method="post">
+
+    <h4>Get Quote</h4>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" id="symbol" name="symbol" autofocus placeholder="Symbol" type="symbol">
+    </div>
+
+    <button class="btn btn-success" type="submit" onsubmit="quoteRefresh()">Quote</button>
+    <a href="\" class="btn btn-primary" role="button">Home</a>
+
+    {% if quote != null %}
+        <div class="center">
+            <p>A share of <br><b>{{quote["name"]}}</b> ({{quote["symbol"]}}) <br>costs:</p>
+            {% block refresh %}{% endblock %}
+        </div>
+    {% endif %}
+</form>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Symbols
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-11">
+            <h4 class="text-start">All Symbols of Companies</h4>
+        </div>
+        <div class="col-sm-1">
+            <a href="\" class="btn btn-primary" role="button">Home</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-start">Company Name</th>
+                <th class="text-start">Exchange</th>
+                <th class="text-start">Exchange Name</th>
+                <th class="text-start">Region</th>
+                <th class="text-start">Enabled</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td class="text-start">{{row["symbol"]}}</td>
+                <td class="text-start">{{row["name"]}}</td>
+                <td class="text-start">{{row["exchange"]}}</td>
+                <td class="text-start">{{row["exchangeName"]}}</td>
+                <td class="text-start">{{row["region"]}}</td>
+                <td class="text-start">{{row["isEnabled"]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

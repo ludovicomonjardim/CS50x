@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <form action="/" method="post">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-start">Symbol</th>
+                    <th class="text-start">Name</th>
+                    <th class="text-end">Shares</th>
+                    <th class="text-end">Price</th>
+                    <th class="text-end">TOTAL</th>
+                    <th class="text-start">Trade ( x=buy | -x=sell )</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set i = 0 %}
+                {% for row in rows%}
+                    <tr>
+                        <td class="text-start">{{ row["symbol"] }}</td>
+                        <td class="text-start">{{ row["company"] }}</td>
+                        <td class="text-end">{{ row["shares"] }}</td>
+                        <td class="text-end">{{ row["price"] | usd}}</td>
+                        <td class="text-end">{{ (row["shares"] * row["price"]) | usd}}</td>
+                        <td width="1%" class="text-start"><input class="form-control mx-auto w-auto" id="shares" name={{"shares_"+row["symbol"]}} autofocus placeholder="Shares to Trade" type="shares"></td>
+                        <td class="text-start"><button class="btn btn-success" name={{row["symbol"]}} type="submit">Trade</button></td>
+                    </tr>
+                    {% set i = i + 1 %}
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="4">Cash</td>
+                    <td class="border-0 text-end">{{ credit | usd }}</td>
+                </tr>
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="4">TOTAL</td>
+                    <td class="border-0 w-bold text-end">{{ cash | usd }}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</div>
+{% endblock %}
